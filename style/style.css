@@ -1,0 +1,35 @@
+/* Background */
+
+body {
+    background: url(https://hiberniacollege.com/media/2016/02/blackboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Hangman Text */
+
+.head-text {
+   font-family: 'Coming Soon', cursive;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 0px;
+}
+.sub-text {
+    font-family: 'Coming Soon', cursive;
+    font-size: 40px;
+    color: rgb(43, 172, 4);
+    margin-top: 0px;
+}
+.sub-text-2 {
+    font-family: 'Coming Soon', cursive;
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+}
+.letters {
+    font-family: 'Monofett', cursive;
+    color: rgb(226, 241, 15);
+    font-size: 40px;
+    margin-left: 150px;
+}
+
