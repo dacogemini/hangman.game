@@ -5,31 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Hangman Game developed by Dan Collins" content="Free Game">
-    <meta name="keywords" content="HTML,CSS,JavaScript,Game">
-    <meta name="author" content="Dan Collins">
-    <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Itim|Monofett|Rye|Vollkorn+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Englebert|Mouse+Memoirs|Wendy+One" rel="stylesheet">
+    <script src="https://use.fontawesome.com/fa71049392.js"></script>
     <link rel="stylesheet" href="style/style.css">
     <title>Hangman</title>
 </head>
 
 <body>
-    <center>
-        <h1 class="head-text">Hangman</h1>
-    </center>
-    <center>
-        <h1 class="sub-text">(Coding Terms)</h1>
-    </center>
-    <h3 class="sub-text-2">Choose a Letter</h3>
-    <p class="letters">
-        A B C D E F G H I <br>
-        J K L M N O P Q R <br>
-        S T U V W X Y Z 
-    </p>
+    <div class="hangman">
+        <div class="guess"></div>
+        <p class="head-text">HANGMAN</p>
+        <p class="hangman">Hint: words are code related.
+            <br/>
+            <a href="https://codepen.io/dacogemini/#">
+        </p>
+        <p class="sub-text">(Follow Me on Codepen)</a>
+        </p>
+        <form class="guessForm">
+            <input type="text" class="guessLetter" maxlength="1" placeholder="&nbsp Enter a letter . . ." />
+            <button type="submit" class="guessButton">Guess</button>
+        </form>
 
+        <div class="message">
+            <h1 class="title"></h1>
+            <p class="text"></p>
+            <button class="button">Play Again?</button>
 
-<!-- Javascript -->
-<script src="scripts/game.js"></script>
+        </div>
+    </div>
+    <!-- Javascript -->
+    <script src="https://use.fontawesome.com/fa71049392.js"></script>
+    <script src="scripts/game.js"></script>
+
 </body>
 
 </html>
