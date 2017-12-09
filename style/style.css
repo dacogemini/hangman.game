@@ -6,30 +6,124 @@ body {
     background-size: cover;
 }
 
+
 /* Hangman Text */
 
+
+/* unvisited link */
+
+a:link {
+    color: rgb(153, 216, 137);
+}
+
+
+/* visited link */
+
+a:visited {
+    color: rgb(211, 20, 179);
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: hotpink;
+}
+
+
+/* selected link */
+
+a:active {
+    color: rgb(227, 227, 228);
+}
 .head-text {
-   font-family: 'Coming Soon', cursive;
-    font-size: 60px;
-    color: white;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 100px;
+    text-decoration-style: none;
+    color: rgb(223, 179, 113);
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
     margin-bottom: 0px;
 }
+.hangman {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 60px;
+    text-decoration-style: none;
+    color: rgb(228, 163, 13);
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
 .sub-text {
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
     font-size: 40px;
-    color: rgb(43, 172, 4);
+    color: rgb(223, 179, 113);
     margin-top: 0px;
 }
+
 .sub-text-2 {
     font-family: 'Coming Soon', cursive;
     font-size: 30px;
     color: white;
     margin-left: 150px;
 }
-.letters {
-    font-family: 'Monofett', cursive;
-    color: rgb(226, 241, 15);
+
+.wrapper {
     font-size: 40px;
     margin-left: 150px;
+    width: 280px;
+    height: auto;
 }
 
+.button {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 40px;
+    background-color: rgb(223, 179, 113);
+    border-color: gray;
+    color: rgb(109, 104, 94);
+    width: 200px;
+    height: 80px;
+}
+
+.guessButton {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    background-color: rgb(223, 179, 113);
+    border-color: gray;
+    color: rgb(109, 104, 94);
+    width: 90px;
+    height: 50px;
+}
+
+.guessLetter {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+    color: rgb(253, 250, 250);
+    border: thick;
+    border-style: solid;
+    border-color: gray;
+    content: "\f090";
+    width: 250px;
+    height: 40px;
+}
+
+.word {
+    display: block;
+    white-space: nowrap;
+}
+
+/*
+.letter {
+    display: inline-block;
+    color: transparent;
+    border-bottom: 5px solid #53BDFF;
+    margin: 0 10px;
+    font-size: 50px;
+    padding: 10px;
+    transition: .5s;
+    text-transform: uppercase;
+} */
