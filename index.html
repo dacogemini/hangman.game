@@ -13,7 +13,9 @@
 
 <body>
     <div class="hangman">
-        <div class="guess"></div>
+        <div class="guess" id="guess">
+
+        </div>
         <p class="head-text">HANGMAN</p>
         <p class="hangman">Hint: words are code related.
             <br/>
@@ -21,17 +23,23 @@
         </p>
         <p class="sub-text">(Follow Me on Codepen)</a>
         </p>
-        <form class="guessForm">
+        <!--   <form class="guessForm">
             <input type="text" class="guessLetter" maxlength="1" placeholder="&nbsp Enter a letter . . ." />
             <button type="submit" class="guessButton">Guess</button>
-        </form>
-
-        <div class="message">
-            <h1 class="title"></h1>
-            <p class="text"></p>
-            <button class="button">Play Again?</button>
-
+        </form> -->
+        <div id="wordDisplay">
+            <!-- ANSWER ARRAY -->
         </div>
+    </div>
+
+
+    </div>
+    <div class="message">
+        <h1 class="title"></h1>
+        <p class="text"></p>
+        <button class="button">Play Again?</button>
+
+    </div>
     </div>
     <!-- Javascript -->
     <script src="https://use.fontawesome.com/fa71049392.js"></script>

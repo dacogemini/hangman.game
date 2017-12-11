@@ -81,9 +81,10 @@ a:active {
 .button {
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 40px;
-    background-color: rgb(223, 179, 113);
-    border-color: gray;
-    color: rgb(109, 104, 94);
+    margin-left: 580px;
+    background-color: black;
+    border-color: rgb(247, 243, 243);
+    color: rgb(231, 168, 22);
     width: 200px;
     height: 80px;
 }
@@ -116,6 +117,12 @@ a:active {
     white-space: nowrap;
 }
 
+#wordDisplay {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120px;
+   
+
+}
 /*
 .letter {
     display: inline-block;
