@@ -26,14 +26,16 @@ document.getElementById("wordDisplay").innerHTML = answerArray.join(" ");
 
 while (remainingLetters > 0) {
 
+    alert(answerArray.join(" "));
     document.getElementById("wordDisplay").innerHTML = answerArray.join(" ");
-    var guess = prompt ("Guess a letter, or click Cancel to stop playing.");
+    var guess = prompt("Guess a letter, or click Cancel to stop playing.");
 
     if (guess === null) {
         break;
     } else if (guess.length !== 1) {
 
-        
+        alert("Please enter a single letter.");
+
     } else {
         for (var j = 0; j < word.length; j++) {
 
@@ -48,17 +50,15 @@ while (remainingLetters > 0) {
         }
     }
 }
+alert(answerArray.join(" "));
 
-guessButton = document.getElementById("wordDisplay").innerHTML;
-guessInput.style.display = 'inline';
-guessButton.style.display = 'inline';
-
+alert("Good job! The answer was " + word);
 
 
 
 // Console Logs
 console.log(word);
 console.log(remainingLetters);
-
+console.log(answerArray);
 
 // document.getElementById("wordDisplay").innerHTML = answerArray;
